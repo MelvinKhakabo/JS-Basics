@@ -9,14 +9,14 @@ const interestRate = 0.3;
 console.log(interestRate);
 
 //primitive types/values
-let name = 'Mosh'; //String Literal
+let personName = 'Mosh'; //String Literal
 let age = 30; //Number Literal
 let isApproved = true; //Boolean Literal
 let firstName = undefined;
 let selectedColor = null;
 
 //check the type of variable
-console.log(typeof name);
+console.log(typeof personName);
 console.log(typeof age);
 console.log(typeof isApproved);
 console.log(typeof firstName);
