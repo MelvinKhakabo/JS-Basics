@@ -1,0 +1,2 @@
+// JavaScript Basic Tutorial
+console.log("Hello World!");
