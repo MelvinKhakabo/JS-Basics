@@ -30,3 +30,6 @@ fetch("https://fakestoreapi.com/products")
     .catch(error => console.error("Error fetching products:", error));
 
 
+### Incorrect API Request for Fetching a Specific Product
+curl -X GET https://fakestoreapi.com/products/5
+
