@@ -38,3 +38,13 @@ fetch("https://fakestoreapi.com/products/5")
     .then(res => res.json())
     .then(data => console.log(data))
     .catch(error => console.error("Error fetching product:", error));
+
+### API Request to Create a New Product
+curl -X POST https://fakestoreapi.com/products \
+     -H "Content-Type: application/json" \
+     -d '{
+           "title": "New Product",
+           "price": 29.99,
+           "description": "A high-quality product",
+           "category": "electronics"
+         }'
