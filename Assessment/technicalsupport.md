@@ -19,3 +19,14 @@ Inspect Shopify’s Payment Gateway Logs to identify any failures.
 Test Checkout in Incognito Mode to rule out browser caching issues.
 Disable Third-Party Apps & Custom Scripts that could be interfering.
 Once resolved, I would inform the merchant of the root cause and provide preventive steps for future issues."
+
+
+### Node.js Script to Fetch Products
+const fetch = require("node-fetch");
+
+fetch("https://fakestoreapi.com/products")
+    .then(res => res.json())  // ✅ Fix: Correct function call
+    .then(json => console.log(json))
+    .catch(error => console.error("Error fetching products:", error));
+
+
