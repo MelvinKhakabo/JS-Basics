@@ -33,3 +33,8 @@ fetch("https://fakestoreapi.com/products")
 ### Incorrect API Request for Fetching a Specific Product
 curl -X GET https://fakestoreapi.com/products/5
 
+OR
+fetch("https://fakestoreapi.com/products/5")
+    .then(res => res.json())
+    .then(data => console.log(data))
+    .catch(error => console.error("Error fetching product:", error));
