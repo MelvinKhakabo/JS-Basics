@@ -10,3 +10,12 @@ Enable Shopify’s Caching & CDN to improve content delivery speed.
 Minimize JavaScript & CSS Files by removing unused code and enabling lazy loading.
 I would then test the store’s speed again and provide the merchant with recommendations for ongoing maintenance."
 
+### Shopify Checkout Failure Troubleshooting
+"To troubleshoot this issue, I would:
+
+Check Browser Console for JavaScript errors (F12 > Console).
+Test Checkout on Different Networks & Devices to rule out connectivity issues.
+Inspect Shopify’s Payment Gateway Logs to identify any failures.
+Test Checkout in Incognito Mode to rule out browser caching issues.
+Disable Third-Party Apps & Custom Scripts that could be interfering.
+Once resolved, I would inform the merchant of the root cause and provide preventive steps for future issues."
