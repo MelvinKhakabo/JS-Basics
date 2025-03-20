@@ -1,0 +1,12 @@
+## These are answers to my technical support assessment for an ecommerce store(I hope to use them in future)
+
+### Shopify Store Speed Optimization
+"To optimize the store’s speed, I would:
+
+Analyze Performance using Google PageSpeed Insights and Shopify’s speed report.
+Optimize Images by compressing large files using Shopify’s built-in image optimization or tools like TinyPNG.
+Reduce Unnecessary Apps & Scripts to minimize third-party requests.
+Enable Shopify’s Caching & CDN to improve content delivery speed.
+Minimize JavaScript & CSS Files by removing unused code and enabling lazy loading.
+I would then test the store’s speed again and provide the merchant with recommendations for ongoing maintenance."
+
