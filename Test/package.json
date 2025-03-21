@@ -1,12 +1,1 @@
-{
-  "name": "testapp",
-  "version": "1.0.0",
-  "description": "Simple Test App",
-  "license": "ISC",
-  "author": "Melvin Khakabo",
-  "type": "commonjs",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
-}
+
